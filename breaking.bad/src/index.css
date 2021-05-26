@@ -1,0 +1,72 @@
+body{
+  padding: 70px;
+  background: linear-gradient(0deg,rgb(143, 187, 146) 37%, rgb(197, 228, 206) 60% , rgb(209, 237, 216) 90%);
+   
+  
+}
+   
+
+.header{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.header img{
+  display: block;
+  margin: 0 auto;
+  
+}
+
+p{
+  font-size: 18px;
+  color: rgb(109, 56, 56);
+  text-align: center;
+  animation: fade .2s;
+}
+
+
+span {
+  font-size: .75em;
+  color: #bbb;
+  color: #daa646;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+ h1 {
+  font-size: 48px;
+  color: rgb(11, 72, 59);
+  text-align: center;
+  animation: fade .2s;
+}
+
+span {
+  font-size: .75em;
+  color: rgb(7, 38, 39);
+  color: #daa646;
+  text-transform: capitalize;
+}
+
+button {
+  padding: 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.3);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #bdae91;
+  transition: background .1s linear;
+}
+
+button:hover {
+  background-color: #d39b71d0;
+}
+
+button:hover, button:focus {
+  outline: none;
+}
